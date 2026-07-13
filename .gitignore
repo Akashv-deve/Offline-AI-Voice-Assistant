@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env
+
+# Audio files generated at runtime
+input.wav
+output.wav
+
+# Backup files
+*.save
+*.bak
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large models and binaries
+*.onnx
+*.bin
+*.so
+*.a
+*.o
+
+# Piper and Whisper runtimes
+piper/
+whisper.cpp/
+
+# Logs
+*.log
